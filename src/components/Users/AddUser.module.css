@@ -1,0 +1,23 @@
+.form {
+  min-width: 600px;
+  text-align: start;
+  /* display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  gap: "20px"; */
+}
+
+.form input,
+.form label {
+  display: block;
+  width: 100%;
+}
+
+.form input {
+  padding: 10px 0;
+  margin: 10px 0 20px 0;
+}
+
+.form label {
+  font-weight: 500;
+}

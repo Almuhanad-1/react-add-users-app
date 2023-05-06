@@ -1,0 +1,35 @@
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: rgba(85, 85, 85, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+.modal {
+  border: 2px solid #555;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  padding-top: 10px;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: large;
+  border-bottom: 2px #ccc solid;
+  padding: 10px 0;
+}
+
+.modal-main {
+  width: 100%;
+}
+
+.modal-actions {
+  margin-top: 20px;
+}
